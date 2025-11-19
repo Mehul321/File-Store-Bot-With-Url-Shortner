@@ -8,10 +8,10 @@ class Config(object):
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "1003486068610"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "kingshortx.in")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "3be6a14aec4f07c487ed881604fedc5fa2e7732c")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""910090161))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://mehulrathod8514:IpEFuQmV5zFUWd0B@cluster0.91zmh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "1003379165829")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "1003432402350"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -32,11 +32,11 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/KingVj01)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://t.me/+aa7eXw-UgKNhNmJl)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/KingVj01)
+[Donate Me](https://t.me/+aa7eXw-UgKNhNmJl)
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
