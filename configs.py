@@ -5,14 +5,14 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
+  API_ID = int(os.environ.get("API_ID", "26386777"))
+  API_HASH = os.environ.get("API_HASH", "ee7bbb1078fa4aaf4c1b6e9cfeec3ca1")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7308784807:AAGvNseuqb_24ffTvCtT54XXUaSPN-n4ugI")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Kingshortx_bot")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1003486068610"))
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "kingshortx.in")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "3be6a14aec4f07c487ed881604fedc5fa2e7732c")
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "910090161"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
