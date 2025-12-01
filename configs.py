@@ -7,7 +7,7 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "26386777"))
   API_HASH = os.environ.get("API_HASH", "ee7bbb1078fa4aaf4c1b6e9cfeec3ca1")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7308784807:AAGvNseuqb_24ffTvCtT54XXUaSPN-n4ugI")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7308784807:AAGa9IolcKZpclbOFjnAeC5G5AT4_3O7Z-0")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Kingshortx_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1003486068610"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "kingshortx.in")
