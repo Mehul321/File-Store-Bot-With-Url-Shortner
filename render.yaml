@@ -1,3 +1,12 @@
-build: pip3 install -U -r requirements.txt
-  docker:
-    worker: Dockerfile
+services:
+  - type: web
+    name: file-store-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: APP_URL
+        sync: false
+    plan: free
